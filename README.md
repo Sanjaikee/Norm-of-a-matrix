@@ -13,7 +13,7 @@ To write a program to find the 1-norm, 2-norm and infinity norm of the matrix an
 1-Norm of a Matrix:
 
 #Register Number:23003393
-#NAME:  SANJAI S
+#Developed by:  SANJAI S
 import numpy as np
 a=np.array(eval(input()))
 soln=np.linalg.norm(a,1)
@@ -24,8 +24,8 @@ print("%.2f"%soln)
 2-Norm of a Matrix:
 
 Developed by: SANJAI S
-RegisterNumber: 23003393
-import numpy as np
+#RegisterNumber: 23003393
+#import numpy as np
 a=np.array(eval(input()))
 soln=np.linalg.norm(a,2)
 print("%.2f"%soln)
@@ -34,8 +34,8 @@ print("%.2f"%soln)
 
 3.Infinity Norm of a Matrix:
 
-Developed by: SANJAI S
-RegisterNumber: 23003393
+#Developed by: SANJAI S
+#RegisterNumber: 23003393
 import numpy as np
 a=np.array(eval(input()))
 soln=np.linalg.norm(a,np.inf)
